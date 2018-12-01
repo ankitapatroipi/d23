@@ -4,7 +4,10 @@ var eventEmitter = new events.EventEmitter();
 
 var f1 = function () 
 {     
+
 	console.log("Test Event is happening now");
+	console.log("Test Event is happens ok.");
+
 };
 
 eventEmitter.on("TestEvent", f1);
